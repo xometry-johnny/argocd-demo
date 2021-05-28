@@ -4,3 +4,4 @@ metadata:
   name: example-configmap 
 data:
   test: test
+  new: value
