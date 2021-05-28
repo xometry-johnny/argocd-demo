@@ -9,10 +9,11 @@ dependencies:
 - name: kubernetes-dashboard
   version: 2.2.0
   repository: https://kubernetes.github.io/dashboard
-
-
+  import-values:
+    - values
 
 ---
-
 kubernetes-dashboard:
-  replicaCount: 2
+  exports:
+    values:
+      replicaCount: 2
