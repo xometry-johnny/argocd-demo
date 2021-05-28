@@ -15,3 +15,5 @@ gitlab:
     common:
       labels: 
         johnny: test
+  certmanager:
+    install: false
