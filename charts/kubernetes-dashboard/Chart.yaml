@@ -13,7 +13,7 @@ dependencies:
     - values
 
 ---
-kubernetes-dashboard:
-  exports:
-    values:
+exports:
+  values:
+    kubernetes-dashboard:
       replicaCount: 2
