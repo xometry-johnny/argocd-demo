@@ -1,0 +1,16 @@
+apiVersion: v2
+name: kubernetes-dashboard
+description: kubernetes-dashboard Argo demo
+type: application
+version: 0.1.0
+appVersion: 5.0.2
+
+dependencies:
+- name: kubernetes-dashboard
+  version: 2.2.0
+  repository: https://kubernetes.github.io/dashboard
+
+
+kubernetes-dashboard:
+  labels: 
+    johnny: test
