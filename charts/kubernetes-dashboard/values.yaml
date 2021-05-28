@@ -1,3 +1,6 @@
 kubernetes-dashboard:
   replicaCount: 1
   protocolHttp: true
+  extraArgs:
+    - --enable-skip-login
+    - --enable-insecure-login
