@@ -1,2 +1,2 @@
 kubernetes-dashboard:
-  replicaCount: 2
+  replicaCount: 1

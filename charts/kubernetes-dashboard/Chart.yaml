@@ -11,7 +11,3 @@ dependencies:
   repository: https://kubernetes.github.io/dashboard
 
 
-
----
-kubernetes-dashboard:
-  replicaCount: 2
