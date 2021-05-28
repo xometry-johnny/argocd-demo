@@ -12,4 +12,5 @@ dependencies:
 
 
 kubernetes-dashboard:
-  replicaCount: 2
+  values:
+    replicaCount: 2
