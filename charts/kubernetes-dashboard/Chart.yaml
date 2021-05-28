@@ -12,5 +12,4 @@ dependencies:
 
 
 kubernetes-dashboard:
-  labels: 
-    johnny: test
+  replicaCount: 2
