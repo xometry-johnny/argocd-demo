@@ -1,2 +1,3 @@
 kubernetes-dashboard:
   replicaCount: 1
+  protocolHttp: true
