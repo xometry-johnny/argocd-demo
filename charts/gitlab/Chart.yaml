@@ -15,5 +15,5 @@ gitlab:
     common:
       labels: 
         johnny: test
-  certmanager:
-    install: false
+  certmanager-issuer: 
+    email: johnny.cheng@xometry.com
