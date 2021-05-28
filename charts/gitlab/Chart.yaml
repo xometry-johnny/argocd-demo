@@ -11,11 +11,5 @@ dependencies:
   repository: https://charts.gitlab.io/
 
 gitlab:
-  global:
-    common:
-      labels: 
-        johnny: test
-  certmanager-issuer: 
-    email: johnny.cheng@xometry.com
   certmanager:
     install: false
