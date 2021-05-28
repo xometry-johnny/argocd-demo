@@ -11,9 +11,8 @@ dependencies:
   repository: https://kubernetes.github.io/dashboard
   import-values:
     - values
-
 ---
-exports:
-  values:
-    kubernetes-dashboard:
+kubernetes-dashboard:
+  exports:
+    values:
       replicaCount: 2
