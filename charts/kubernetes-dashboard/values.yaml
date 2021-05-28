@@ -1,5 +1,5 @@
 kubernetes-dashboard:
-  replicaCount: 1
+  replicaCount: 3
   protocolHttp: true
   extraArgs:
     - --enable-skip-login
