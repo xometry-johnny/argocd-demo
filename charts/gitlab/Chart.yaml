@@ -17,3 +17,5 @@ gitlab:
         johnny: test
   certmanager-issuer: 
     email: johnny.cheng@xometry.com
+  certmanager:
+    install: false
